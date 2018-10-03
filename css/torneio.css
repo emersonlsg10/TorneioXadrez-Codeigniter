@@ -1,0 +1,29 @@
+@charset "UTF-8";
+form#torneio{
+    background-color: rgba(255,255,255,0.6);
+    box-shadow: 0px 0px 10px rgba(0,0,1,0.4);
+    padding: 20px 10px 10px 10px;
+}
+form#torneio label{
+    font-size: 18pt;
+    font-family: cursive;
+}
+form#torneio select{
+    font-size: 16pt;
+}
+input[type=number]{
+    font-size: 16pt;
+    width: 100px;
+}
+form#torneio button{
+    box-shadow: 0px 0px 10px rgba(0,0,1,0.8);
+    border-radius:10px;
+    background:#cecece;
+    font-size: 16pt;
+    font-family: cursive; 
+    margin-left: 400px;
+}
+form#torneio button:hover{  
+    color: #ffffff;
+}
+
